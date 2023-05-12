@@ -1,0 +1,469 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1683913823229004, "dur":2476, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823231486, "dur":60, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1683913823231562, "dur":11, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1683913823231573, "dur":468, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1683913823232071, "dur":570, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823232641, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823936983, "dur":221, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937204, "dur":35, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937239, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937242, "dur":68, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937310, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937315, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937325, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937325, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937351, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937352, "dur":32, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937384, "dur":87, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937471, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937479, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937480, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937483, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937484, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937487, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937488, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937491, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937492, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937496, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937497, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937500, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937501, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937504, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937518, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823937546, "dur":1517, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1683913823232730, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683913823232731, "dur":4334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683913823237065, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1683913823237257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683913823240166, "dur":2069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1683913823242290, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1683913823242414, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683913823242901, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1683913823244884, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1683913823245127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683913823245137, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1683913823246869, "dur":16504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683913823263405, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683913823263567, "dur":4469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683913823268087, "dur":98548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683913823366642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683913823366655, "dur":5145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683913823371850, "dur":38970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683913823410827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683913823410839, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683913823412343, "dur":16810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683913823429159, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683913823429172, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683913823430528, "dur":25220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683913823455753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683913823455764, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683913823457190, "dur":29603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683913823486797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683913823486812, "dur":2374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683913823489233, "dur":107023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683913823596261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683913823596273, "dur":22686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683913823619005, "dur":48844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683913823667856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683913823667881, "dur":3694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683913823671622, "dur":113720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683913823785349, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683913823785362, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683913823786794, "dur":150200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683913823232535, "dur":119, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683913823232674, "dur":4351, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683913823237036, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1683913823237069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683913823238543, "dur":444, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1683913823238993, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1683913823239057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683913823239303, "dur":3112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1683913823242418, "dur":12384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1683913823254806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683913823254829, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1683913823256173, "dur":47604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683913823303781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683913823303791, "dur":3969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683913823307892, "dur":179448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683913823487343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683913823487352, "dur":1985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683913823489377, "dur":228491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683913823717874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683913823717887, "dur":10059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683913823727994, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1683913823728041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683913823728109, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1683913823729617, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683913823729663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683913823729672, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683913823731068, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1683913823731233, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683913823731242, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1683913823732480, "dur":1059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1683913823733544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683913823733554, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1683913823735601, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683913823735643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683913823735651, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683913823736896, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1683913823736945, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683913823736951, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1683913823738056, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683913823738103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683913823738111, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683913823739516, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1683913823739670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683913823739678, "dur":1615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1683913823741331, "dur":195657, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683913823232625, "dur":76, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683913823232701, "dur":4366, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683913823237067, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1683913823237250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683913823239923, "dur":4497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1683913823244515, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1683913823244804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683913823245046, "dur":2297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1683913823247392, "dur":4752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1683913823252147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683913823252153, "dur":2054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1683913823254269, "dur":36091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683913823290366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683913823290378, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683913823291756, "dur":15922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683913823307684, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683913823307695, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683913823308889, "dur":26059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683913823334954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683913823334964, "dur":5259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683913823340276, "dur":45594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683913823385874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683913823385885, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683913823387242, "dur":43163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683913823430409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683913823430417, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683913823432230, "dur":19089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683913823451324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683913823451334, "dur":1349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683913823452724, "dur":33605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683913823486336, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683913823486350, "dur":2017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683913823488416, "dur":91068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683913823579489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683913823579499, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683913823580944, "dur":32355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683913823613306, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683913823613349, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683913823614973, "dur":190340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683913823805318, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683913823805330, "dur":2256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683913823807631, "dur":129388, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683913823232577, "dur":102, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683913823232679, "dur":4360, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683913823237040, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1683913823237249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683913823239892, "dur":4601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1683913823244562, "dur":13497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1683913823258063, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683913823258074, "dur":2218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1683913823260341, "dur":34522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683913823294866, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683913823294875, "dur":4347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683913823299269, "dur":14892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683913823314165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683913823314176, "dur":3320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683913823317542, "dur":38558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683913823356104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683913823356113, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683913823357182, "dur":14548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683913823371735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683913823371746, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683913823373047, "dur":18397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683913823391449, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683913823391461, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683913823392868, "dur":21053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683913823413925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683913823413936, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683913823416675, "dur":17403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683913823434083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683913823434094, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683913823435635, "dur":17140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683913823452779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683913823452790, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683913823453945, "dur":137012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683913823590963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683913823590975, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683913823592331, "dur":173170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683913823765528, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683913823765538, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683913823766736, "dur":170285, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683913823232721, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683913823232721, "dur":4345, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683913823237066, "dur":14831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1683913823251900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683913823251949, "dur":2132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1683913823254136, "dur":39828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683913823294616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683913823294652, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683913823296441, "dur":76605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683913823373050, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683913823373061, "dur":1273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683913823374381, "dur":13534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683913823387919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683913823387928, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683913823389396, "dur":29703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683913823419106, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683913823419117, "dur":6088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683913823425282, "dur":19043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683913823444331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683913823444343, "dur":4085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683913823448585, "dur":32465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683913823481056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683913823481068, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683913823482821, "dur":89937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683913823572803, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683913823572816, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683913823574398, "dur":103031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683913823677435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683913823677448, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683913823679216, "dur":65625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683913823744846, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683913823744859, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683913823746114, "dur":190908, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683913823232780, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683913823232782, "dur":4245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683913823237036, "dur":44003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1683913823281052, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683913823281433, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1683913823282659, "dur":16359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683913823299025, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683913823299037, "dur":1188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683913823300266, "dur":28147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683913823328420, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683913823328433, "dur":4505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683913823332988, "dur":41285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683913823374277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683913823374288, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683913823375529, "dur":36634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683913823412169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683913823412180, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683913823413767, "dur":16765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683913823430535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683913823430542, "dur":1810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683913823432400, "dur":14711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683913823447117, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683913823447128, "dur":3296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683913823450474, "dur":36018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683913823486496, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683913823486504, "dur":2122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683913823488675, "dur":86740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683913823575420, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683913823575432, "dur":2773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683913823578247, "dur":101713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683913823679964, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683913823679976, "dur":1489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683913823681507, "dur":252718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683913823934230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683913823934239, "dur":2650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683913823936918, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1683913823936921, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683913823232819, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683913823232820, "dur":4302, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683913823237123, "dur":15371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1683913823252506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683913823252527, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1683913823254049, "dur":23542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683913823277597, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683913823277705, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683913823279083, "dur":23043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683913823302131, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683913823302140, "dur":1836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683913823304032, "dur":125797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683913823429832, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683913823429848, "dur":3103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683913823432998, "dur":14349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683913823447351, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683913823447359, "dur":1605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683913823449016, "dur":37563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683913823486582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683913823486588, "dur":2078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683913823488717, "dur":224674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683913823713398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683913823713409, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683913823714929, "dur":198837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683913823913771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683913823913779, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683913823915116, "dur":21871, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683913823232852, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683913823232853, "dur":4190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683913823237046, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1683913823237272, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683913823240534, "dur":3924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1683913823244597, "dur":503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1683913823245105, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683913823245119, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1683913823246662, "dur":2857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823249525, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683913823250038, "dur":2535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823252702, "dur":5267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes.exe" }}
+,{ "pid":12345, "tid":8, "ts":1683913823257975, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683913823257987, "dur":2229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes.exe" }}
+,{ "pid":12345, "tid":8, "ts":1683913823260260, "dur":22274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823282540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683913823282550, "dur":3329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823286152, "dur":15397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823301583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683913823301594, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823303192, "dur":43967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823347166, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683913823354369, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823355395, "dur":28043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823383443, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683913823383454, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823385160, "dur":16234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823401401, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683913823401421, "dur":2120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823403585, "dur":43952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823447540, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683913823447549, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823449074, "dur":30824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823479905, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683913823479918, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823481350, "dur":46519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823527875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683913823527886, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823529486, "dur":182691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823712182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683913823712194, "dur":2791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823715028, "dur":31523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823746556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683913823746566, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683913823747944, "dur":189037, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683913823232879, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683913823232879, "dur":4244, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683913823237124, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1683913823237296, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683913823251341, "dur":2334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1683913823253871, "dur":18470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683913823272347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683913823272753, "dur":1949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683913823274745, "dur":17809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683913823292558, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683913823292570, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683913823294103, "dur":53156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683913823347270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683913823347280, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683913823348685, "dur":33421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683913823382112, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683913823382124, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683913823383503, "dur":46713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683913823430220, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683913823430230, "dur":2417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683913823432698, "dur":106376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683913823539080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683913823539100, "dur":4013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683913823543155, "dur":193470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683913823736630, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683913823736640, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683913823738202, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1683913823738245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683913823738250, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1683913823739804, "dur":197175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683913823232905, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683913823232905, "dur":4131, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683913823237039, "dur":14614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1683913823251658, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683913823251682, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1683913823253232, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1683913823253377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683913823254303, "dur":11075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1683913823265781, "dur":26788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683913823292573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683913823292581, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683913823294489, "dur":18047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683913823312542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683913823312555, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683913823313925, "dur":37087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683913823351017, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683913823351055, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683913823352663, "dur":40523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683913823393190, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683913823393200, "dur":10184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683913823403429, "dur":22254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683913823425687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683913823425698, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683913823427012, "dur":59501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683913823486516, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683913823486524, "dur":1996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683913823488568, "dur":55814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683913823544387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683913823544398, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683913823545731, "dur":74906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683913823620642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683913823620654, "dur":10277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683913823630975, "dur":124211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683913823755193, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683913823755207, "dur":1804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683913823757044, "dur":179961, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683913823233158, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683913823233158, "dur":3883, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683913823237041, "dur":14844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1683913823251889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683913823251912, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1683913823253784, "dur":62197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683913823316034, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683913823316044, "dur":14080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683913823330177, "dur":95523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683913823425704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683913823425743, "dur":2161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683913823427966, "dur":40706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683913823468678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683913823468690, "dur":3302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683913823472049, "dur":38025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683913823510081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683913823510092, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683913823511393, "dur":65101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683913823576499, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683913823576510, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683913823577665, "dur":39294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683913823616965, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683913823616978, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683913823618177, "dur":190905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683913823809086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683913823809094, "dur":1685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683913823810820, "dur":126200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683913823232975, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683913823232975, "dur":4056, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683913823237039, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1683913823237266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683913823240286, "dur":4682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1683913823245109, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1683913823245229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683913823245236, "dur":1700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1683913823246989, "dur":69799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683913823316792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683913823316799, "dur":16889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683913823333734, "dur":19222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683913823352959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683913823352970, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683913823354237, "dur":16430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683913823370674, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683913823370686, "dur":3165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683913823373898, "dur":14013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683913823387916, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683913823387928, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683913823390532, "dur":16665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683913823407234, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683913823407247, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683913823408676, "dur":103544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683913823512224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683913823512234, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683913823513588, "dur":118887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683913823632481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683913823632493, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683913823633843, "dur":114208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683913823748087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683913823748098, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sosik/OneDrive/Dokumenty/GitHub/SO2-Projekt/Build/SO2_Nodes_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683913823749527, "dur":187481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683913823940339, "dur":1359, "ph":"X", "name": "ProfilerWriteOutput" }
+,
