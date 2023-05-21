@@ -53,6 +53,7 @@ MonoBehaviour:
   speed: 10
   currentNode: {fileID: 0}
   path: []
+  shouldGiveUp: 0
 --- !u!1 &2238052405928874748
 GameObject:
   m_ObjectHideFlags: 0

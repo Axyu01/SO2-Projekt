@@ -9,11 +9,13 @@ public class Node : MonoBehaviour
     public Mutex mutex=new Mutex();
     public Vector3 position=Vector3.zero;
     public GameObject Tube;
+    [SerializeField]
+    bool isTwoWay = true;
     // Start is called before the first frame update
     void Start()
     {
         foreach(Node node in neighboors) {
-            if (!node.neighboors.Contains(this))
+            if (isTwoWay && !node.neighboors.Contains(this))
             {
                 node.neighboors.Add(this);
                 
